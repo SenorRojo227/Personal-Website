@@ -4,7 +4,14 @@ body {
     color: #505050;
 }
 
-h1 {
+header {
+    margin-top: -25px;
+    padding-top: 10px;
+    background-color: #E0E0E0;
+    border-bottom: 2px #505050 solid;
+}
+
+header h1 {
     margin-left: 50px;
     font-size: 36px;
     color: #B25D5D;
@@ -16,22 +23,23 @@ header small {
     color: #505050;
 }
 
-nav {
+nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    list-style-type: none;
     text-align: center;
     font-weight: bold;
 }
 
-nav div {
-    width: 33%;
-    padding: 10px;
+nav a {
     font-size: 18px;
+    text-decoration: none;
+    color: #505050;
     transition: color 1s;
 }
 
-nav div:hover {
+nav a:hover {
     color: #B25D5D;
 }
 
